@@ -1,0 +1,145 @@
+body{
+  background: rgba(0, 0, 205, 0.7);
+}
+
+img{
+  width: 80%;
+  height: 80%;
+}
+
+.hako{
+  display: flex;
+  margin-top: 80px;
+}
+
+.under{
+  padding: 30px 0;
+}
+
+.back-result .center{
+  display: flex;
+}
+
+.left{
+  text-align: center;
+}
+
+.red{
+  width: 55%;
+  height: 100%;
+}
+
+.try{
+  width: 70%;
+  height: 100%;
+}
+
+.muscle{
+  width: 65%;
+  height: 100%;
+}
+
+.creator{
+  width: 65%;
+  height: 100%;
+}
+
+.text_box{
+  width: 70%;
+  margin: 30px;
+}
+
+.pa, .p0, .p1, .p2{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.p1 p{
+  margin: 30px 0 20px 0;
+  display: inline-block;
+  background: linear-gradient(90deg, #ffefd5 0%, #d3d3d3 33%, #ffe6c5 62%, #c3c3c3 83%, #939393 100%);
+  background: -webkit-linear-gradient(0deg, #ffefd5 0%, #d3d3d3 33%, #ffe6c5 62%, #c3c3c3 83%, #939393 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p2{
+  font-size: 50px;
+  letter-spacing: 0.1em;
+}
+
+.pa, .p0{
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+}
+
+.pa p{
+  margin: 30px 0 20px 0;
+  display: inline-block;
+  background: linear-gradient(90deg, #ffefd5 0%, #d3d3d3 33%, #ffe6c5 62%, #c3c3c3 83%, #939393 100%);
+  background: -webkit-linear-gradient(0deg, #ffefd5 0%, #d3d3d3 33%, #ffe6c5 62%, #c3c3c3 83%, #939393 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p0{
+  display: inline-block;
+  background: linear-gradient(90deg, #ffefd5 0%, #e7c76d 33%, #ffe6c5 62%, #e3c05d 83%, #9d874e 100%);
+  background: -webkit-linear-gradient(0deg, #ffefd5 0%, #e7c76d 33%, #ffe6c5 62%, #e3c05d 83%, #9d874e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p2 .re{
+  display: inline-block;
+  background: linear-gradient(135deg, #fa000e 0%, #ffd700 98%, #eec828 100%);
+  background: -webkit-linear-gradient(-45deg, #fa000e 0%, #ffd700 98%, #eec828 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p2 .cr{
+  display: inline-block;
+  background: linear-gradient(90deg, #00ffff 0%, #ff00ff 33%, #ff4500 62%, #ffa500 83%, #7cfc00 100%);
+  background: -webkit-linear-gradient(0deg, #00ffff 0%, #ff00ff 33%, #ff4500 62%, #ffa500 83%, #7cfc00 100%);
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientEffect 2.5s infinite alternate;
+}
+
+.p2 .mu{
+  display: inline-block;
+  background: linear-gradient(135deg, #939393 0%, #fed838 50%, #42dd42 100%);
+  background: -webkit-linear-gradient(-45deg, #939393 0%,#fed838 50%, #42dd42 100%);
+  -webkit-background-clip: text;
+  background-size: 300% auto;
+  -webkit-text-fill-color: transparent;
+  animation: gradientEffect 2.5s infinite alternate;
+}
+
+.p2 .tr{
+  display: inline-block;
+  background: linear-gradient(90deg, #fed838 0%, #cfbfa5 33%, #ffe6c5 62%, #ff8c00 83%, #d2691e 100%);
+  background: -webkit-linear-gradient(0deg, #fed838 0%, #9f8f75 33%, #ffe6c5 62%, #ff8c00 83%, #d2691e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientEffect {
+  from {background-position: left}
+  to {background-position: right}
+}
+
+.fadein {
+  opacity: 0;
+  animation: fadein 0.3s ease forwards;
+}
+@keyframes fadein {
+  100% {  opacity: 1;}
+}
+
+.fadein1 {animation-delay: 0.4s;}
+.fadein2 {animation-delay: 1.3s;}
+.fadein3 {animation-delay: 2.0s;}

@@ -1,0 +1,660 @@
+@charset "UTF-8";
+.link_image{
+	width: 20px;
+	height: 20px;
+}
+
+.content_title{
+	height: 100px;
+	text-align: center;
+	color: #00a6e4;
+}
+
+.caution{
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #bbb;
+  width: 900px;
+}
+
+.consent{
+  display: block;
+  text-align: center;
+  margin: 20px 210px;	
+  line-height: 40px;
+}
+    
+.form_content {
+  width: 100vw;
+  height: 1050px;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  height: 1100px;
+  width: 400px;
+}
+
+.form-title{
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.form-item{
+	align-items: flex-end;
+	display: flex;
+	justify-content: center;
+	height: 40px;
+}
+
+.form-context {
+	background-color: white;
+	padding: 0 10px 5px 0 ;
+	font-weight: bold;
+}
+
+.form-need {
+	background-color: #ff6347;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.form-optional {
+	background-color: #bdb76b;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.form-input-field {
+	height: 30px;
+	width: 330px;
+	margin: 20px;
+	display: block;
+	margin: 10 auto;
+	text-align: center;
+}
+
+.form-input-textarea {
+  resize: none;
+	height: 100px;
+	width: 330px;
+	margin: 20px;
+	display: block;
+	margin: 10 auto;
+	text-align: center;
+}
+
+.form-input-button {
+	border: 1px solid #333;
+	color: #333;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	background-color: #ffd700;
+}
+
+.form-input-button:hover {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	background-color: #dfb500;
+}
+
+/***********
+学習スケジュール
+***********/
+.schedule_main, .schedule_header, .schedule_content{
+	display: flex;
+	justify-content: space-around;
+}
+
+li{
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+header{
+	border-bottom: 1px solid #0078de;
+}
+
+.content_title {
+	height: 100px;
+	text-align: center;
+  color: #00a6e4;
+}
+
+.header_title {
+  font-size: 34px;
+  display: block;
+  width: 1000px;
+  padding: 25px 0;
+  margin: 0 auto 0 auto;
+	font-style: italic;
+  text-shadow: 1px 2px 1px #0078de;
+}
+
+
+.content_list {
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid #0078de;
+	padding-top: 15px;
+  background-color: skyblue;
+
+}
+
+.schedule_header_title{
+  font-weight: bold;
+	font-size: 20px;
+  padding-left:10px;
+	color:#333;
+}
+
+.schedule_basic, .schedule_apply, .schedule_develop, .schedule_final, .schedule_prepare{
+	text-align: center;
+	padding-top: 10px;
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+	width: 230px;
+	height: 40px;
+}
+
+.schedule_basic{
+	background-color: #0078de;
+}
+
+.schedule_basic_content{
+	width: 230px;
+	height: 130px;
+	border-left: 3px solid #0078de;
+	border-bottom: 3px solid #0078de;
+}
+
+.schedule_apply{
+	background-color: #0084db;
+}
+
+.schedule_apply_content{
+	width: 230px;
+	height: 130px;
+	border-left: 3px solid #0084db;
+	border-bottom: 3px solid #0084db;
+}
+
+.schedule_develop{
+	background-color: #008dd9;
+}
+
+.schedule_develop_content{
+	width: 230px;
+	height: 130px;
+	border-left: 3px solid #008dd9;
+	border-bottom: 3px solid #008dd9;
+}
+
+.schedule_final{
+	background-color: #009ad6;
+}
+
+.schedule_final_content{
+	width: 230px;
+	height: 130px;
+	border-left: 3px solid #009ad6;
+	border-bottom: 3px solid #009ad6;
+}
+
+.schedule_prepare{
+	background-color: #00a6d4;
+}
+
+.schedule_prepare_content{
+	width: 230px;
+	height: 130px;
+	border-left: 3px solid #00a6d4;
+	border-bottom: 3px solid #00a6d4;
+	border-right: 3px solid #00a6d4;
+}
+
+.schedule_text_basic, .schedule_text_apply, .schedule_text_develop, .schedule_text_final, .schedule_text_prepare{
+	text-align: center;
+	padding-top: 20px;
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+	width: 170px;
+	height: 50px;
+  margin-bottom: 20px;
+}
+
+.schedule_text_basic{
+	background-color: #0078de;
+}
+
+.schedule_text_apply{
+	background-color: #0084db;
+}
+
+.schedule_text_develop{
+	background-color: #008dd9;
+}
+
+.schedule_text_final{
+	background-color: #009ad6;
+}
+
+.schedule_text_prepare{
+	background-color: #00a6d4;
+}
+
+.schedule_header_curriculum{
+	margin-top: 20px;
+	background: linear-gradient(to right, #c0c0c0, #f5f5f5);
+	width: 720px;
+	height: 30px;
+}
+
+.schedule_header_practice{
+	margin-top: 20px;
+	background: linear-gradient(to right, #c0c0c0, #f5f5f5);
+	width: 230px;
+	height: 30px;
+}
+
+.schedule_header_prepare{
+	margin-top: 20px;
+	background: linear-gradient(to right, #c0c0c0, #f5f5f5);
+	width: 230px;
+	height: 30px;
+}
+
+.schedule_article{
+  color:#008dd9;
+  font-weight: bold;
+  font-size:22px;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.schedule_sub{
+  margin: 30px 0 ;
+  display: flex;
+}
+
+.schedule_text{
+	height:90px;
+}
+
+/***********
+一日の流れ
+***********/
+.oneday-all{
+  display: flex;
+	margin-top: 20px;
+}
+
+.oneday-main{
+	margin-left:30px;
+}
+
+.oneday-morning, .oneday-AM, .oneday-lunch, .oneday-PM, .oneday-Finish{
+	color:white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.oneday-morning, .oneday-AM, .oneday-lunch, .oneday-Finish{
+	width: 200px;
+	height:100px;
+  line-height: 100px;
+}
+
+.oneday-PM{
+	width: 70px;
+	height:372px;
+  line-height: 372px;
+}
+
+.oneday-morning{
+	background-color: #0078de;
+}
+
+.oneday-AM{
+	background-color: #0084db;
+}
+
+.oneday-lunch{
+	background-color: #008dd9;
+}
+
+.oneday-PM{
+	background-color: #009ad6;
+}
+
+.oneday-Finish{
+	background-color: #00a6d4;
+	margin-bottom: 30px;
+}
+
+.oneday-cycle{
+	display: flex;
+}
+
+.oneday-cycle{
+  display: flex;
+  text-align: center;
+}
+
+.oneday-curriculum, .oneday-output, .oneday-break{
+	background-color: #6a5acd;
+	color:white;
+	font-weight: bold;
+  font-size: 15px;
+	width: 130px;
+}
+
+.oneday-curriculum, .oneday-output, .oneday-break{
+  line-height: 100px;
+  height: 100px;
+}
+
+.oneday-next{
+	font-weight: bold;
+	font-size: x-large;
+  width: 200px;
+  text-align: center;
+}
+
+.oneday-next_PM{
+	font-weight: bold;
+	font-size: x-large;
+  width: 130px;
+  text-align: center;
+}
+
+.oneday-text-field{
+  margin-left: 20px;
+  height:137px;
+}
+
+.last_content{
+	margin-bottom: 30px;
+}
+
+/**********
+制作物一覧
+**********/
+.production_image{
+  margin-top: 30px;
+  width: 600px;
+  border: 3px solid #0078de;
+}
+
+.production_furima{
+  margin-top: 30px;
+  border-top: 3px solid #bbb;
+}
+
+.production_title{
+  align-items: flex-end;
+  display: flex;
+  margin-top: 30px;
+}
+
+.production_type{
+  margin-bottom: 5px;
+}
+
+.production_text{
+  padding-left: 30px;
+}
+
+/**********
+ヘッダー
+**********/
+
+.content_link:hover {
+  color: yellow;
+  border-bottom: 1px solid white;
+}
+
+.content_link {
+  color: indigo;
+}
+
+.content_current_link {
+  color: indigo;
+  font-weight: bold;
+}
+
+.current_page{
+	font-weight: bold;
+}
+
+.noncurrent_page:hover{
+	border-bottom: 1px solid black;	
+}
+
+/**********
+メイン部分
+**********/
+.main {
+	display: flex;
+}
+
+.main_content {
+	width: 30vw;
+	height: 100vh;
+}
+
+/**********
+フッター部分
+**********/
+footer {
+	height: 20px;
+	text-align: center;
+	padding: 20px 0;
+	color: indigo;
+	background-color: skyblue;
+	border-top: 1px solid #0078de;
+}
+
+/***********
+
+***********/
+
+li{
+	list-style: none;
+}
+
+/**********
+個別ページ
+**********/
+.introduction{
+	border-bottom: 1px solid #0078de;
+	margin: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+
+.introduction_title{
+	color: #ff7f50;
+	font-size: x-large;
+}
+
+/***********
+ヘッダー部分
+***********/
+.link_image{
+  width: 20px;
+  height: 20px;
+}
+
+.content_title{
+  color: #00a6e4;
+}
+      
+.content_sub {
+  font-size: 20px;
+}
+
+.header_color{
+  border-top:7px solid #0078de;
+}
+
+.current_page{
+  font-weight: bold;
+}
+
+.introduction_text{
+	padding: 13px 13px 8px 13px;
+	color: #555;
+}
+
+.noncurrent_page:hover{
+  border-bottom: 1px solid black;	
+}
+
+/**********
+メイン部分
+**********/
+
+.sub_content {
+	width: 60vw;
+	padding-left:20px;
+  border-left: 1px solid #0078de;
+}
+
+h2 {
+	width: 250px;
+	padding: 0.5em;
+	background-color: #f5f5f5;
+	border-radius: 25px 0px 0px 25px;
+}
+  
+h2:before {
+	content: '●';
+	margin-right: 8px;
+}
+  
+#content2 {
+	display: none;
+}
+  
+#content3 {
+	display: none;
+}
+  
+#content4 {
+	display: none;
+}
+  
+.topics {
+	border-left: solid 6px #0078DE;/*左側の線*/
+	background: #00A6E4;/*背景色*/
+	width: 100%;
+	line-height: 1.5;
+	margin: 20px 0 30px 0;
+	color: white;
+}
+	
+.content_area {
+	width: 85%;
+	background-color: red;
+}
+  
+.table_content {
+  font-size:20px;
+  margin: 20px 0 0 30px;
+}
+  
+.main_topic {
+	line-height:3;
+	position: relative;
+	background: #00A6E4;
+	box-shadow: 0px 0px 0px 5px #00A6E4;
+	border: dashed 2px white;
+	padding: 0.2em 0.5em;
+	color: white;
+}
+  
+.main_topic:after {
+	position:absolute;
+	content: '';
+	left: -7px;
+	top: -7px;
+	border-width: 0 0 15px 15px;
+	border-style: solid;
+	border-color: #fff #fff #0078DE;
+	box-shadow: 1px 1px 1px rgba(0,0,0,15);
+}
+  
+.main_topic:hover {
+	font-size: 25px;
+} 
+	
+.topic_box {
+	width: 900px;
+	height: 150px;
+	border: 1px solid #000;
+	overflow-y: scroll;
+	margin-left: 40px;
+}
+  
+.engineer_training {
+	margin-left: 40px;
+}
+  
+.business_list {
+	margin-left: 40px;
+}
+  
+.careers_page {
+	margin-left: 40px;
+}
+  
+.careers a{
+	width: 350px;
+	height: 70px;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:1px solid #333;
+	border-radius: 15px;
+}
+  
+.careers_button {
+	font-size: 20px;
+}
+  
+/**********
+フッター部分
+**********/
+footer {
+	height:20px;
+	text-align: center;
+	padding: 20px 0;
+	color:indigo;
+	background-color: skyblue;
+	border-top: 1px solid #0078de;
+}

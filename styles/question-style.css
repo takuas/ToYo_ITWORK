@@ -1,0 +1,401 @@
+#diagnosis .wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#diagnosis.index .wrap {
+    padding: 15px 0 49px 0;
+}
+
+#diagnosis.index .wrap .inner {
+    position: relative;
+    width: 562px;
+    margin: 25px auto 0 auto;
+}
+
+#diagnosis .nav {
+    margin: 0 0 15px 0;
+}
+
+#diagnosis .nav .btn {
+    float: right;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 14px 0 0 0;
+}
+
+#diagnosis .nav .btn a:hover {
+    text-decoration: none;
+}
+
+#diagnosis .nav .btn a::before {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #f83228;
+    border-right: 2px solid #f83228;
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+#diagnosis .nav .btn a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 170px;
+    line-height: 38px;
+    color: #f83228;
+    background: #ffffff;
+    border: 1px solid #a3a3a3;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 0 0 0 41px;
+    margin-bottom: 50px;
+}
+
+#diagnosis .nav .btn .bottom {
+    margin-bottom: 30px;
+}
+
+#diagnosis.diagnosis .wrap {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+#diagnosis.diagnosis .wrap1 {
+    overflow: hidden;
+    padding: 0;
+}
+
+#diagnosis.diagnosis .inner {
+    width: 10000px;
+    opacity: 0;
+}
+
+#diagnosis.diagnosis .box {
+    background: #fffff0;
+    box-shadow: 0px 5px 0px 0px rgba(221, 221, 221, 0.6);
+    border-radius: 25px;
+    padding: 0 0 25px 0;
+    float: left;
+}
+
+#diagnosis.diagnosis .box + .box {
+    margin: 0 0 0 500px;
+}
+
+#diagnosis.diagnosis .box a {
+    text-decoration: none;
+    color: #000;
+}
+
+#diagnosis.diagnosis .inner .ttl {
+    position: relative;
+    display: table;
+    width: 91%;
+    padding: 11px 32px 9px 60px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 25px;
+    margin: 0 0 34px 0;
+}
+
+.ttl0{
+    background: #32cd32;
+}
+
+.ttl1{
+    background: #f33;
+}
+
+.ttl2{
+    background: #ff1493;
+}
+
+.ttl3{
+    background: #f60;
+}
+
+.ttl4{
+    background: #daa520;
+}
+
+#diagnosis.diagnosis .inner .ttl::after {
+    content: '';
+    position: absolute;
+    bottom: -52px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-right: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+    border-left: 26px solid transparent;
+    margin-left: -26px;
+}
+
+.ttl0:after{
+    border-top: 26px solid #32cd32;
+}
+
+.ttl1:after{
+    border-top: 26px solid #f33;
+}
+
+.ttl2:after{
+    border-top: 26px solid #ff1493;
+}
+
+.ttl3:after{
+    border-top: 26px solid #f60;
+}
+
+.ttl4:after{
+    border-top: 26px solid #daa520;
+}
+
+#diagnosis.diagnosis .inner .ttl p {
+    display: table-cell;
+    font-size: 2.8rem;
+    color: #fffff0;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#diagnosis.diagnosis .inner a {
+    display: block;
+}
+
+#diagnosis.diagnosis .inner .question + .question {
+    margin-top: 15px;
+}
+
+#diagnosis.diagnosis .inner .question {
+    display: table;
+    width: 850px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 5px 0px 0px #ddd;
+    margin: 0 65px 0 85px;
+    cursor: pointer;
+}
+
+#diagnosis.diagnosis .inner .question.q1 {
+    border: 2px solid #f33;
+}
+
+#diagnosis.diagnosis .inner .question.q1 .num,
+#diagnosis.diagnosis .inner .question.q1:hover {
+    background: #f33;
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q1 a p:hover {
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q2 {
+    border: 2px solid #00f;
+}
+
+#diagnosis.diagnosis .inner .question.q2 .num,
+#diagnosis.diagnosis .inner .question.q2:hover {
+    background: #00f;
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q2 a p:hover {
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q3 {
+    border: 2px solid #f60;
+}
+
+#diagnosis.diagnosis .inner .question.q3 .num,
+#diagnosis.diagnosis .inner .question.q3:hover {
+    background: #f60;
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q3 a p:hover {
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q4 {
+    border: 2px solid #444;
+}
+
+#diagnosis.diagnosis .inner .question.q4 .num,
+#diagnosis.diagnosis .inner .question.q4:hover {
+    background: #444;
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q4 a p:hover {
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q5 {
+    border: 2px solid #daa520;
+}
+
+#diagnosis.diagnosis .inner .question.q5 .num,
+#diagnosis.diagnosis .inner .question.q5:hover {
+    background: #daa520;
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q5 a p:hover {
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q6 {
+    border: 2px solid #32cd32;
+}
+
+#diagnosis.diagnosis .inner .question.q6 .num,
+#diagnosis.diagnosis .inner .question.q6:hover {
+    background: #32cd32;
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q6 a p:hover {
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q7 {
+    border: 2px solid #ff1493;
+}
+
+#diagnosis.diagnosis .inner .question.q7 .num,
+#diagnosis.diagnosis .inner .question.q7:hover {
+    background: #ff1493;
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question.q7 a p:hover {
+    color: #fff;
+}
+
+#diagnosis.diagnosis .inner .question .num {
+    display: table-cell;
+    width: 54px;
+    height: 51px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#diagnosis.diagnosis .inner .question p{
+    display: table-cell;
+    font-size: 2.0rem;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-left: 60px;
+}
+
+@media only screen and (max-width: 640px) {
+    #diagnosis .nav {
+        margin: 0 0 2% 0;
+        /*	padding:0 4%;*/
+    }
+    #diagnosis .nav .btn {
+        float: right;
+        font-size: 1.2rem;
+        width: 40%;
+        text-align: center;
+        margin: 0;
+    }
+    #diagnosis .nav .btn a {
+        position: relative;
+        display: block;
+        line-height: 1.0;
+        width: auto;
+        color: #f83228;
+        background: #fff;
+        border: 1px solid #a3a3a3;
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding: 10% 0 10% 3%;
+    }
+    #diagnosis .nav .btn a::before {
+        position: absolute;
+        top: 50%;
+        left: 11%;
+        content: '';
+        display: block;
+        width: 5px;
+        height: 5px;
+        border-top: 2px solid #f83228;
+        border-right: 2px solid #f83228;
+        -moz-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        margin-top: -2px;
+    }
+    #diagnosis.diagnosis .wrap{
+        width: 92%;
+        padding: 2% 0 25px;
+        margin: 0 auto;
+    }
+    #diagnosis.diagnosis .inner {
+        width: 7000px;
+    }
+    #diagnosis.diagnosis .box {
+        width: 300px;
+        padding: 0 0 8.5% 0;
+    }
+    #diagnosis.diagnosis .box + .box {
+        margin: 0 0 0 50px;
+    }
+    #diagnosis.diagnosis .inner .ttl {
+        padding: 2.3% 3%;
+        margin: 0 0 5.3% 0;
+    }
+    #diagnosis.diagnosis .inner .ttl p {
+        font-size: 1.7rem;
+        line-height: 1.5;
+        width: 76%;
+    }
+    #diagnosis.diagnosis .inner .ttl::after {
+        bottom: -26px;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border-top: 13px solid #f46262;
+        border-right: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        border-left: 13px solid transparent;
+        margin-left: -13px;
+    }
+    #diagnosis.diagnosis .inner .question {
+        width: 91%;
+        margin: 0 auto;
+        border-radius: 40px;
+    }
+    #diagnosis.diagnosis .inner .question .num {
+        width: 12%;
+        height: auto;
+        border-top-left-radius: 36px;
+        border-bottom-left-radius: 36px;
+        padding: 5.5% 0 3.5% 0;
+    }
+    #diagnosis.diagnosis .inner .question p {
+        font-size: 1.4rem;
+        padding: 0 3%;
+    }
+    #diagnosis.diagnosis .inner a {
+        margin-top: 3.6%;
+    }
+    #diagnosis.diagnosis .inner .question + .question {
+        margin-top: 10px;
+    }
+}

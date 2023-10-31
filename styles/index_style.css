@@ -1,0 +1,381 @@
+li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/***********
+ヘッダー部分
+***********/
+.link_image{
+	width: 20px;
+	height: 20px;
+}
+
+.content_title{
+  height: 100px;
+	text-align: center;
+	color: #00a6e4;
+}
+
+header{
+	border-bottom: 1px solid black;
+}
+
+.content_title {
+  height: 100px;
+	text-align: center;
+  color: #00a6e4;
+}
+
+.header_title {
+  font-size: 34px;
+  display: block;
+  width: 1000px;
+  padding: 25px 0;
+  margin: 0 auto 0 auto;
+  font-style: italic;
+  text-shadow: 1px 2px 1px #0078de;
+}
+
+.content_list {
+  height: 50px;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid #0078de;
+	padding-top: 15px;
+  background-color: skyblue;
+}
+
+.content_link:hover {
+  color: yellow;
+  border-bottom: 1px solid white;
+}
+
+.content_link {
+  color: indigo;
+}
+
+.content_current_link {
+  color: indigo;
+  font-weight: bold;
+}
+
+.content_sub {
+	font-size: 20px;
+}
+
+.header_color{
+	border-top:7px solid #0078de;
+}
+
+/**********
+メイン部分
+**********/
+
+
+.main {
+  display: flex;
+  border-bottom: 1px solid #0078de;
+}
+
+.main_content {
+  width: 30vw;
+  height: 100vh;
+}
+
+.sub_content {
+  border-left: 1px solid #0078de;
+  width: 50vw;
+  padding-left:20px;
+}
+
+/**********
+各見出し
+**********/
+
+h2 {
+  position: relative;
+  padding: 0.25em 0;
+  margin-bottom: 20px;
+}
+
+h2:after {
+  content: '';
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(0, 166 ,228), transparent);
+  background: linear-gradient(to right, rgb(0, 166, 228), transparent);
+}
+
+.topics {
+  border-left: solid 6px #0078DE;/*左側の線*/
+  background: #00A6E4;/*背景色*/
+  width: 100%;
+  line-height: 1.5;
+  margin: 20px 0 30px 0;
+  color: white;
+}
+
+/**********
+隠し部分
+**********/
+
+#content2 {
+  display: none;
+}
+
+#content3 {
+  display: none;
+}
+
+#content4 {
+  display: none;
+}
+
+/*********************
+左カラム
+**********************/
+
+.table_content {
+  font-size:20px;
+  margin: 20px 0 0 30px;
+}
+
+.main_topic {
+  line-height:3;
+  position: relative;
+  background: #00A6E4;
+  box-shadow: 0px 0px 0px 5px #00A6E4;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: white;
+}
+
+.main_topic:after {
+  position:absolute;
+  content: '';
+  left: -7px;
+  top: -7px;
+  border-width: 0 0 15px 15px;
+  border-style: solid;
+  border-color: #fff #fff #0078DE;
+  box-shadow: 1px 1px 1px rgba(0,0,0,15);
+}
+
+.main_topic:hover {
+  font-size: 25px;
+}
+
+/**********************
+育成紹介
+***********************/
+.index_text {
+  font-size: 25px;
+  color: #0078DE;
+  text-align: center;
+  line-height: 2;
+  background-color: #D6ECFF;
+  width: 45vw;
+  margin-bottom: 30px;
+}
+
+.index_text_inner {
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  width: 40vw;
+  position: relative;
+  margin:0 auto;
+}
+
+.engineer_image_top {
+  display: flex;
+}
+
+.engineer_image_bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.top_before_img {
+  width: 50%;
+  height: 50%;
+}
+
+.top_after_img {
+  width: 50%;
+  height: 50%;
+  position:relative;
+  left:10%;
+}
+
+.yajirushi_img {
+  width: 60%;
+  height: 50%;
+  position: relative;
+  left: 10%;
+  top: 20%;
+}
+
+
+
+.says {
+  display: inline-block;
+  position: relative; 
+  margin: 0 0 0 50px;
+  padding: 30px;
+  max-width: 250px;
+  border-radius: 30px;
+  background: #D6ECFF;
+}
+
+.says:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 20px; 
+  left: -23px;
+  border: 8px solid transparent;
+  border-right: 18px solid #D6ECFF;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(10deg);
+}
+.says p {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+
+.says_2 {
+  height: 60px;
+  position: relative; 
+  margin: 5% 0 0 10%;
+  padding: 30px;
+  max-width: 250px;
+  border-radius: 30px;
+  background: #D6ECFF;
+}
+
+.says_2:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 60px; 
+  right: -23px;
+  border: 8px solid transparent;
+  border-right: 18px solid #D6ECFF;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(180deg);
+}
+.says_2 p {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+ width: 40vw;
+}
+
+
+/**********************
+エンジニア育成ページ
+***********************/
+
+.engineer_training {
+  margin: 20px 0 0 40px;
+  width: 75%;
+}
+
+.training {
+  margin-bottom: 50px;
+}
+
+
+.text_content {
+  width:500px;
+}
+strong {
+  color: red;
+  font-size: 20px;
+}
+
+/**********************
+カリキュラムページ
+***********************/
+.curriculum {
+  margin: 20px 0 0 40px;
+}
+
+.curriculum_text {
+  margin-bottom: 30px;
+}
+
+.curriculum_list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.curriculum_content {
+  height:300px;
+  width: 180px;
+  background-color: #D6ECFF;
+  padding:0 15px 15px 15px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 6px #0078DE;
+}
+
+h3 {
+  text-align: center;
+  margin:15px 0;
+  border-bottom: 2px dashed #00A6E4;
+}
+
+.curriculum_point {
+  margin-bottom: 30px;
+  width: 75%;
+}
+
+/**********
+メンターについて
+**********/
+.about-mentor {
+  margin: 20px 0 0 40px;
+}
+
+#content4 strong{
+  font-size: 34px;
+}
+
+.content4_content {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+.content4_title {
+  font-size: 34px;
+  color: black;
+}
+
+.menndann_image {
+  height: 300px;
+  width: 300px;
+}
+/**********
+フッター部分
+**********/
+footer {
+  height: 20px;
+	text-align: center;
+  padding: 20px 0;
+  background-color: skyblue;
+  color: indigo;
+}
